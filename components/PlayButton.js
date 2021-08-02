@@ -1,7 +1,7 @@
 import React from 'react';
 import { Pressable, StyleSheet, Text } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-
+import Colors from '../theme/Colors';
 class PlayButton extends React.PureComponent {
   render() {
     const { handlePress } = this.props;
@@ -22,10 +22,10 @@ const styles = StyleSheet.create({
     height: 60,
     justifyContent: 'center',
     padding: 10,
-    backgroundColor: '#4481FC',
+    backgroundColor: Colors.primary,
   },
   buttonText: {
-    color: 'white',
+    color: Colors.white,
   },
 });
 

@@ -33,15 +33,11 @@ const styles = StyleSheet.create({
   list: {
     marginTop: 25,
   },
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
+
   text: {
-    marginBottom: 10,
     fontSize: 20,
     fontWeight: 'bold',
+    padding: 10,
   },
 });
 

@@ -71,13 +71,7 @@ const Detail = ({ route, navigation }) => {
                   })}
                 </View>
               )}
-              <StarRating
-                disabled={true}
-                maxStars={5}
-                starSize={30}
-                rating={movieDetail.vote_average / 2}
-                fullStarColor={'gold'}
-              />
+              <Text>Avg. Rating: {movieDetail.vote_average / 2}</Text>
               <Text style={styles.overview}>{movieDetail.overview}</Text>
 
               <Text style={styles.release}>
